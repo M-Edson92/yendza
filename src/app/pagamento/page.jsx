@@ -13,6 +13,7 @@ export default function Pagamento() {
   const preco = searchParams.get("preco");
 
   return (
+    <Suspense fallback={<p>Carregando...</p>}>
     <div className="p-10 max-w-xl mx-auto">
       <h1 className="text-2xl font-bold text-blue-500 mb-6">Confirmação de Reserva</h1>
       <div className="bg-white p-6 rounded shadow space-y-2">
@@ -33,5 +34,6 @@ export default function Pagamento() {
         </a>
       </button>
     </div>
+    </Suspense>
   );
 }
