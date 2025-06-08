@@ -1,7 +1,8 @@
 "use client";
+
 import { useSearchParams } from "next/navigation";
 
-export default function PagamentoCliente() {
+export default function PagamentoContent() {
   const searchParams = useSearchParams();
 
   const empresa = searchParams.get("empresa");
