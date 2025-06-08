@@ -22,7 +22,7 @@ export default function HeroSection() {
       id: 2,
       empresa: "Etrago",
       origem: "Maputo",
-      destino: "Xai-Xai",
+      destino: "Beira",
       data: "2025-06-08",
       preco: "700 MT",
       hora: "10:00",
