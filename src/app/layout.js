@@ -1,8 +1,8 @@
 import "../styles/globals.css";
 
 export const metadata = {
-  title: "YENDZA",
-  description: "Viaje de forma eficaz",
+  title: "Yendza",
+  description: "Sistema de reservas de viagens em Moçambique",
 };
 
 export default function RootLayout({ children }) {
