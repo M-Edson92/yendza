@@ -25,7 +25,7 @@ BASE_DIR = Path(__file__).resolve().parent.parent
 SECRET_KEY = 'django-insecure-^&n=s=9p7n6n0vf^nc-%z^&jr_@-w+3@q*a5kvq7pl&m%x8at)'
 
 # SECURITY WARNING: don't run with debug turned on in production!
-DEBUG = False
+DEBUG = True
 
 ALLOWED_HOSTS = ['yendza.up.railway.app', 'localhost', '127.0.0.1']
 
